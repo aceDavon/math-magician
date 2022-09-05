@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Makoji David**
 
-- GitHub: [@githubhandle](https://github.com/aceDavon)
+- GitHub: [@aceDavon](https://github.com/aceDavon)
 - Twitter: [@sharkleshevon](https://twitter.com/sharkleshevon)
 - LinkedIn: [Makoji David](https://www.linkedin.com/in/david-makoji-b6090971/)
 
