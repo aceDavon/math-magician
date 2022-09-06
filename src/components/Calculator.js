@@ -28,7 +28,7 @@ export default class Calculator extends Component {
               {operands.map((button) => (
                 <button
                   type="button"
-                  className="bg-gray-400 border px-2 py-2"
+                  className="bg-gray-300 border px-2 py-2"
                   value={button}
                   key={button}
                   onClick={this.handleClick}
@@ -39,11 +39,11 @@ export default class Calculator extends Component {
               <button
                 type="button"
                 value={0}
-                className="col col-span-2 bg-gray-400 py-2 "
+                className="col col-span-2 border bg-gray-300 py-2 "
               >
                 0
               </button>
-              <button type="button" className="px-2 py-2 border bg-gray-400">
+              <button type="button" className="px-2 py-2 border bg-gray-300">
                 .
               </button>
             </div>
@@ -51,7 +51,7 @@ export default class Calculator extends Component {
               {Symbols.map((signs) => (
                 <button
                   type="button"
-                  className="bg-orange-500 border px-2 py-2"
+                  className="bg-orange-400 border px-2 py-2"
                   key={signs}
                   onClick={this.handleClick}
                   value={signs}
