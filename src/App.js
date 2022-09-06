@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="h-full flex justify-end py-10">
-        <span className="text-4xl shadow-lg shadow-gray-300">Calculator</span>
+        <span className="text-4xl">Calculator</span>
         <Calculator />
       </div>
     );
