@@ -1,27 +1,33 @@
 import React, { Component } from 'react';
-import PropType from 'prop-types';
 import { operands, Symbols } from './Data';
+import calculate from '../logic/Calculate';
 
 export default class Calculator extends Component {
-  PropsType = { styles: PropType.string.isRequired };
-
   constructor(props) {
     super(props);
 
     this.state = {
-      value: 0,
+      total: '',
+      next: null,
+      operation: null,
     };
   }
 
-  handleClick = (e) => this.setState({ value: e.target.value });
+  handleClick = (e) => {
+    const data = e.target.value;
+    const state = calculate(this.state, data);
+    this.setState(state);
+  };
 
   render() {
-    const { value } = this.state;
+    const { total, next, operation } = this.state;
     return (
       <div className="w-1/3 rounded-lg shadow-lg shadow-gray-200 py-4">
         <div className="flex flex-col gap-0 w-9/12 mx-auto">
-          <div className="bg-slate-500 w-full text-white text-right px-3 py-2">
-            {value}
+          <div className="bg-slate-500 w-full text-white text-right h-10 flex items-center px-4">
+            {total}
+            {operation}
+            {next}
           </div>
           <div className="flex gap-0 w-full">
             <div className="bg-gray-300 grid grid-cols-3 w-full">
@@ -39,11 +45,17 @@ export default class Calculator extends Component {
               <button
                 type="button"
                 value={0}
-                className="col col-span-2 border bg-gray-300 py-2 "
+                className="col col-span-2 border bg-gray-300 py-2"
+                onClick={this.handleClick}
               >
                 0
               </button>
-              <button type="button" className="px-2 py-2 border bg-gray-300">
+              <button
+                type="button"
+                value="."
+                className="px-2 py-2 border bg-gray-300"
+                onClick={this.handleClick}
+              >
                 .
               </button>
             </div>
