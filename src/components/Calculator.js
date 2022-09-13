@@ -17,14 +17,15 @@ const Calculator = () => {
   };
 
   return (
-    <div className="w-1/3 rounded-lg shadow-lg shadow-gray-200 py-4">
-      <div className="flex flex-col gap-0 w-9/12 mx-auto">
-        <div className="bg-slate-500 w-full text-white text-right h-10 flex items-center px-4">
+    <div className="w-full pt-20 flex justify-center relative h-screen bg-gradient-to-r from-gray-800 to-gray-900 text-white">
+      <h1 className="text-4xl mt-28 ml-12 text-red-500">Let&apos;s Do some math!</h1>
+      <div className="flex flex-col gap-0 w-5/12 mx-auto mt-28">
+        <div className="bg-slate-500 w-10/12 text-white text-right h-10 flex items-center px-4">
           {total}
           {operation}
           {next}
         </div>
-        <div className="flex gap-0 w-full">
+        <div className="flex gap-0 w-10/12">
           <div className="bg-gray-300 grid grid-cols-3 w-full">
             {operands.map((button) => (
               <button
