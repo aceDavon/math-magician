@@ -23,10 +23,13 @@ const Quotes = () => {
         <blockquote>{quote}</blockquote>
         <p className="italic font-thin text-right">
           --
-          { ' ' }
           {author}
         </p>
-        <button type="button" className="px-12 py-1 rounded-lg bg-red-300" onClick={() => fetchData()}>
+        <button
+          type="button"
+          className="px-12 py-1 rounded-lg bg-red-300"
+          onClick={() => fetchData()}
+        >
           Shuffle
         </button>
       </div>
