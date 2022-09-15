@@ -77,7 +77,12 @@ _This displays the results of the test suites already written on the project to 
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+
+👤 **Tarike Bouari**
+
+- GitHub: [@tarikbouari](https://github.com/tarikbouari)
+- Twitter: [@tarikbouari](https://twitter.com/tarikbouari)
+- LinkedIn: [Tarike Bouari](https://www.linkedin.com/in/tarik-bouari-44b7191a6/ )
 
 Feel free to check the [issues page](../../issues/).
 
