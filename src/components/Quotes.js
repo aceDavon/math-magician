@@ -6,12 +6,12 @@ const Quotes = () => {
     author: 'Anonymous',
     quote: 'Math is the source code of reality.',
   });
+  const [clicked, setClicked] = React.useState(false);
 
   const fetchData = async () => {
     const data = await fetch('https://random-math-quote-api.herokuapp.com/');
 
     const res = await data.json();
-
     setArr(res);
   };
 
@@ -29,8 +29,9 @@ const Quotes = () => {
           type="button"
           className="px-12 py-1 rounded-lg bg-red-300"
           onClick={() => fetchData()}
+          onDoubleClick={() => setClicked(!clicked)}
         >
-          Shuffle
+          {clicked ? 'shuffled' : 'shuffle'}
         </button>
       </div>
     </div>
