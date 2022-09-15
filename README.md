@@ -53,11 +53,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-**When the above commands aresuccessfully run, your browser should open on `localhost:3000`, if not, open your browser and load `127.0.0.1:3000` to see your default template loaded
+**When the above commands are successfully run, your browser should open on `localhost:3000`, if not, open your browser and load `127.0.0.1:3000` to see your default template loaded
 
 ### Run tests
 
-> coming soon :smile:
+**Run from your terminal:**
+
+- `npm test`
+
+_This displays the results of the test suites already written on the project to test for various functionalities and UI implementations. Feel free to edit the UI components and re-run the tests to verify their authenticity_
 
 ### Deployment
 
@@ -73,7 +77,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+
+👤 **Tarike Bouari**
+
+- GitHub: [@tarikbouari](https://github.com/tarikbouari)
+- Twitter: [@tarikbouari](https://twitter.com/tarikbouari)
+- LinkedIn: [Tarike Bouari](https://www.linkedin.com/in/tarik-bouari-44b7191a6/ )
 
 Feel free to check the [issues page](../../issues/).
 
