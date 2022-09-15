@@ -15,4 +15,13 @@ describe('testing logic components', () => {
     const str = "Can't divide by 0.";
     expect(operate(4, 0, '÷')).toBe(str);
   });
+  test('testing operate for negative subtraction', () => {
+    expect(operate(2, 3, '-')).toBe('-1');
+  });
+  test('testing operate for moduli operation', () => {
+    expect(operate(5, 2, '%')).toBe('1');
+  });
+  it('testing operate for multiplication', () => {
+    expect(operate(0, 100, 'x')).toBe('0');
+  });
 });
