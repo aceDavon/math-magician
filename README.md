@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ![](./src/img/__mockup__/MathMagician.jpg)
+
 # Math Magician
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations, Read a random math-related quote built with ReactJS and TailwindCSS
-
 
 ## Built With
 
@@ -12,22 +12,20 @@
 - TailwindCSS
 - Git Workflow, Git, GitHub
 
-## Live Demo
+## Live Deployment
 
-Coming soon :smile:
-
+[Netlify](https://magical-daifuku-5570ac.netlify.app/)
 
 ## Getting Started
 
 ### To have a copy of this project running on your local machine, follow these commands:
 
 - Clone this repo to your local machine
-  -  `git clone git@github.com:aceDavon/math-magician.git`
+  - `git clone git@github.com:aceDavon/math-magician.git`
   - Open the folder "Math-magician and run `npm install` to install all necesary scripts,
   - Run from your termminal, `npm start` to open the project in your browser.
 
 **This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -53,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-**When the above commands are successfully run, your browser should open on `localhost:3000`, if not, open your browser and load `127.0.0.1:3000` to see your default template loaded
+\*\*When the above commands are successfully run, your browser should open on `localhost:3000`, if not, open your browser and load `127.0.0.1:3000` to see your default template loaded
 
 ### Run tests
 
@@ -77,12 +75,11 @@ _This displays the results of the test suites already written on the project to 
 
 ## 🤝 Contributing
 
-
 👤 **Tarike Bouari**
 
 - GitHub: [@tarikbouari](https://github.com/tarikbouari)
 - Twitter: [@tarikbouari](https://twitter.com/tarikbouari)
-- LinkedIn: [Tarike Bouari](https://www.linkedin.com/in/tarik-bouari-44b7191a6/ )
+- LinkedIn: [Tarike Bouari](https://www.linkedin.com/in/tarik-bouari-44b7191a6/)
 
 Feel free to check the [issues page](../../issues/).
 
